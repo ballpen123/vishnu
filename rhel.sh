@@ -9,6 +9,10 @@ if [ ! -d /etc/chef ]; then
 fi
 cd /etc/chef
 # this is also bullshit
+if
+{
+}
+fi
 # Remove client.pem if it exists
 if [ -f /etc/chef/client.pem ]; then
   rm /etc/chef/client.pem
