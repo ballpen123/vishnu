@@ -2,6 +2,7 @@
 if [[ ! -d /var/log/chef ]]; then
   mkdir /var/log/chef
 fi
+# this is bullshit
 
 if [ ! -d /etc/chef ]; then
   mkdir /etc/chef
