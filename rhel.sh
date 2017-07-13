@@ -9,10 +9,14 @@ if [ ! -d /etc/chef ]; then
 fi
 cd /etc/chef
 # this is also bullshit
+<<<<<<< HEAD
 if
 {
 }
 fi
+=======
+yum update
+>>>>>>> b855ac74e93653c7e1bae7b524c613dae96725c3
 # Remove client.pem if it exists
 if [ -f /etc/chef/client.pem ]; then
   rm /etc/chef/client.pem
