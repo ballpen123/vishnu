@@ -7,7 +7,7 @@ if [ ! -d /etc/chef ]; then
   mkdir /etc/chef
 fi
 cd /etc/chef
-
+# this is also bullshit
 # Remove client.pem if it exists
 if [ -f /etc/chef/client.pem ]; then
   rm /etc/chef/client.pem
